@@ -11,7 +11,9 @@ const Base = ({
     <Menu />
     <div className="container-fluid">
       <div className="jumbotron bg-dark text-white text-center">
-        <h4 className="display-4">{title}</h4>
+        <h2 className="display-8" style={{ marginTop: -50 }}>
+          {title}
+        </h2>
         <p className="lead">{description}</p>
       </div>
       <div className={className}>{children}</div>
@@ -20,7 +22,7 @@ const Base = ({
     <footer className="footer bg-dark mt-auto">
       <div className="container-fluid bg-success text-white text-center py-1">
         <h4>If you got any questions, feel free to reach out!</h4>
-        <button className="btn btn-warning btn-lg">Contact Us</button>
+        <button className="btn btn-warning btn-sm">Contact Us</button>
       </div>
     </footer>
   </div>
