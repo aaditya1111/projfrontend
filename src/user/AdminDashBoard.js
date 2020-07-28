@@ -61,9 +61,9 @@ const AdminDashBoard = () => {
     <Base
       title="Welcome to admin area"
       description="Manage all of your products here"
-      className="container bg-success p-4"
+      className="container bg-success"
     >
-      <div style={{ marginTop: -70 }}>
+      <div style={{ marginTop: -80 }}>
         <div className="row">
           <div className="col-3">{adminLeftSide()}</div>
           <div className="col-9">{adminRightSide()}</div>
